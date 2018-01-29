@@ -81,7 +81,7 @@ class Template extends React.Component {
     return (
       <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
         <Helmet>
-            <title>{siteTitle}</title>
+            <title>Josh Leong - Full Stack Software Engineer</title>
             <meta name="description" content={siteDescription} />
         </Helmet>
 
