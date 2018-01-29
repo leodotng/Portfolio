@@ -6,11 +6,11 @@ import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
 var divStyle = {
-  flexDirection: "row",
-  height: "200px",
-  width: "200px",
-  alignSelf: "center"
-};
+  flexDirection: 'row',
+  height: '200px',
+  width: '200px',
+  alignSelf: 'center',
+}
 class Main extends React.Component {
   render() {
     let close = (
@@ -36,15 +36,20 @@ class Main extends React.Component {
         >
           <h2 className="major">Intro</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img
+              src="https://github.com/leodotng/Portfolio/blob/master/src/images/title.png"
+              alt=""
+            />
           </span>
           <p>
-            I live in Denver Colorad, I'm currently studying at Galvanize Full Stack Engineer Program.
-            Check out my blog <a href="http://josh.leo.ng/blog">Blog</a>, I write about Tech, Travel, and sometimes Food!. Check out <a href="http://github.com/leodotng"> Github</a> | <a href="http://www.linkedin.com/in/joshleong">LinkedIN</a>.
+            I live in Denver Colorado, I'm currently studying at Galvanize Full
+            Stack Engineer Program. Check out my{' '}
+            <a href="http://josh.leo.ng/blog">Blog</a>, I write about Tech,
+            Travel, and sometimes Food!. Also my{' '}
+            <a href="http://github.com/leodotng"> Github</a> |{' '}
+            <a href="http://www.linkedin.com/in/joshleong">LinkedIN</a>.
           </p>
-          <p>
-            
-          </p>
+          <p />
           {close}
         </article>
 
@@ -57,23 +62,40 @@ class Main extends React.Component {
         >
           <h2 className="major">Projects</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src="" alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            Backpackerpoints is a new travel rewards points platform for
+            backpackers to book hostels and tours abroad. Tech used: React,
+            Google Maps
+            <a href="http://www.backpackerpoints.com">
+              http://www.backpackerpoints.com
+            </a>
           </p>
+
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            Roofstops is a new app to find rooftop bars and patios nearest you!
+            Tech used: React Native, Roofstops API, OpenWeatherMaps API, React
+            Native Elements
+            <br />
+            <a href="https://github.com/Roofstops/Roofstops">
+              https://github.com/Roofstops/Roofstops
+            </a>
           </p>
+
+          <p>
+            Langlang.io <a href="https://github.com/leodotng/langlang" />
+            helps you learn multiple languages at the same time. Langlang
+            translates english words into 9 different languages, and then speaks
+            them in the corresponding accent. Furthermore a matching picture is
+            provided for added memorization support. Tech used: HTML, CSS,
+            Javascript. Translations were Powered by Yandex. Spoken Text to
+            Speech Powered by ResponsiveVoiceJS Pixabay Photo API Pixabay Front
+            End Framework: Semantic-UI.com
+            <br />
+            <a href="http://www.langlang.io">http://www.langlang.io</a>
+          </p>
+
           {close}
         </article>
 
@@ -86,16 +108,18 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAA3OAAAAJDE1YmEyNmRiLWM2MDYtNGRhNy1hMzMyLTExOTBkYTcyY2I4MQ.jpg" style={divStyle} alt="" />
-            
+            <img
+              src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAA3OAAAAJDE1YmEyNmRiLWM2MDYtNGRhNy1hMzMyLTExOTBkYTcyY2I4MQ.jpg"
+              style={divStyle}
+              alt=""
+            />
           </span>
           <p>
             I am a Full Stack Engineering student at Galvanize Platte in Denver,
             CO. I love front-end frameworks ReactJ, Vuejs, foreign languages,
             and crisp modern typography! I’m happy to connect with developers,
-            entrepreneurs, students and any tech enthusiasts!
-
-            I can be reached by email josh@leo.ng!
+            entrepreneurs, students and any tech enthusiasts! I can be reached
+            by email josh@leo.ng!
           </p>
           {close}
         </article>
@@ -108,28 +132,12 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4" />
-            </div>
-            <ul className="actions">
-              <li>
-                <input type="submit" value="Send Message" className="special" />
-              </li>
-              <li>
-                <input type="reset" value="Reset" />
-              </li>
-            </ul>
-          </form>
+
+          <a href="http://www.linkedin.com/in/joshleong">
+            <h3 className="major">LinkedIN</h3>
+          </a>
+          <h3 className="major">Email josh@leo.ng</h3>
+
           <ul className="icons">
             <li>
               <a href="http://twitter.com/leodotng" className="icon fa-twitter">
