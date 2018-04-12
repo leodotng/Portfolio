@@ -95,6 +95,12 @@ class Main extends React.Component {
             <br />
             <a href="http://www.langlang.io">http://www.langlang.io</a>
           </p>
+          <p>
+            For additional projects check{' '}
+            <a href="http://josh.leo.ng/projects">
+              http://josh.leo.ng/projects
+            </a>
+          </p>
 
           {close}
         </article>
@@ -115,11 +121,12 @@ class Main extends React.Component {
             />
           </span>
           <p>
-            I am a Full Stack Engineering student at Galvanize Platte in Denver,
-            CO. I love front-end frameworks ReactJ, Vuejs, foreign languages,
-            and crisp modern typography! I’m happy to connect with developers,
-            entrepreneurs, students and any tech enthusiasts! I can be reached
-            by email josh@leo.ng!
+            I am a recent graduate of Galvanize's Full Stack Web Development
+            Immersive Program in Denver, CO. I love JavaScript, especially
+            front-end frameworks React.js and Vuejs! I also enjoy working with
+            APIs, UI/UX, modern typography! I aspire to be a programming Polygot
+            in JavaScript, Python, Ruby and Java. I’m currently actively seeking
+            new engineer opportunities! I can be reached by email josh@leo.ng!
           </p>
           {close}
         </article>
