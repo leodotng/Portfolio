@@ -42,8 +42,9 @@ class Main extends React.Component {
             />
           </span>
           <p>
-            I live in Denver Colorado, I'm currently studying at Galvanize Full
-            Stack Engineer Program. Check out my{' '}
+            I live in Denver Colorado, I'm a recent graduate of Galvanize's Full
+            Stack Web Development Immersive. HIRE ME! I am currently seeking new
+            software engineer roles. Check out my{' '}
             <a href="http://josh.leo.ng/blog">Blog</a>, I write about Tech,
             Travel, and sometimes Food!. Also my{' '}
             <a href="http://github.com/leodotng"> Github</a> |{' '}
