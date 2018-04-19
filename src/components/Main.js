@@ -37,10 +37,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Intro</h2>
           <span className="image main">
-            <img
-              src="https://github.com/leodotng/Portfolio/blob/master/src/images/code.jpg"
-              alt=""
-            />
+            
           </span>
           <p>
             I live in Denver Colorado, I'm a recent graduate of Galvanize's Full
@@ -116,11 +113,7 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img
-              src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAA3OAAAAJDE1YmEyNmRiLWM2MDYtNGRhNy1hMzMyLTExOTBkYTcyY2I4MQ.jpg"
-              style={divStyle}
-              alt=""
-            />
+            
           </span>
           <p>
             I am a recent graduate of Galvanize's Full Stack Web Development
