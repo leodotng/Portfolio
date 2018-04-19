@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import './Profile.css'
 
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'

@@ -1,4 +1,5 @@
 import React from 'react'
+import './Profile.css'
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
@@ -7,8 +8,9 @@ const Header = (props) => (
         </div>
         <div className="content">
             <div className="inner">
-                <h1>Josh Leong</h1>
-                <p>Software Engineer</p>
+                <h2>Josh Leong</h2>
+                <img src="https://media.licdn.com/dms/image/C4D03AQGazdFFQIEt3g/profile-displayphoto-shrink_200_200/0?e=1529348400&v=beta&t=AeocWCh1dEth0ecWkwl9HV7mljQ3aQUD-D_sC7nw3TQ"/>
+                <h3>Software Engineer</h3>
             </div>
         </div>
         <nav>
