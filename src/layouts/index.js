@@ -81,7 +81,7 @@ class Template extends React.Component {
         }`}
       >
         <Helmet>
-          <title>Josh Leong - Software Engineer</title>
+          <title>Josh Leong - Software Developer</title>
           <meta name="description" content={siteDescription} />
         </Helmet>
 
