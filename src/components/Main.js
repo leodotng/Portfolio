@@ -42,7 +42,7 @@ class Main extends React.Component {
           <p>
             I live in Denver Colorado, I'm a recent graduate of Galvanize's Full
             Stack Web Development Immersive. HIRE ME! I am currently seeking new
-            software engineer roles. Check out my{' '}
+            software developer roles. Check out my{' '}
             <a href="http://josh.leo.ng/blog">Blog</a>, I write about Tech,
             Travel, and sometimes Food!. Also my{' '}
             <a href="http://github.com/leodotng"> Github</a> |{' '}
@@ -121,11 +121,28 @@ class Main extends React.Component {
             front-end frameworks React.js and Vuejs! I also enjoy working with
             APIs, UI/UX, modern typography! I aspire to be a programming Polygot
             in JavaScript, Python, Ruby and Java. I’m currently actively seeking
-            new engineer opportunities! I can be reached by email josh@leo.ng!
+            new developer opportunities! I can be reached by email josh@leo.ng!
           </p>
           {close}
         </article>
 
+<article
+          id="resume"
+          className={`${this.props.article === 'resume' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Resume</h2>
+          <span className="image main">
+            
+          </span>
+          <p>
+            Click <a href="http://josh.leo.ng/Resume-Josh-Leong-SoftwareDeveloper.pdf">here</a> for my most updated Resume!
+           
+          </p>
+          {close}
+        </article>
         <article
           id="contact"
           className={`${this.props.article === 'contact' ? 'active' : ''} ${
