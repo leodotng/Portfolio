@@ -9,7 +9,7 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h2>Josh Leong</h2>
-                <img src="https://media.licdn.com/dms/image/C4D03AQGazdFFQIEt3g/profile-displayphoto-shrink_200_200/0?e=1529348400&v=beta&t=AeocWCh1dEth0ecWkwl9HV7mljQ3aQUD-D_sC7nw3TQ"/>
+                <img src="https://media.licdn.com/dms/image/C4E03AQEZv4WlNp-iWA/profile-displayphoto-shrink_200_200/0?e=1551916800&v=beta&t=5Up4YZZeA3R8_chkWmc-uUxFiVRhnExSBXVexFK2K4o"/>
                 <h3>Software Developer</h3>
             </div>
         </div>
