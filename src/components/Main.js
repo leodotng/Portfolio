@@ -66,10 +66,12 @@ class Main extends React.Component {
           <p>
             Backpackerpoints is a new travel rewards points platform for
             backpackers to book hostels and tours abroad. Tech used: React,
-            Google Maps
+            Google Maps, Auth0 authentication, Sementic UI. <br />
             <a href="http://www.backpackerpoints.com">
               http://www.backpackerpoints.com
-            </a>
+            </a><p><a href="https://github.com/leodotng/backpackerpoints">
+              https://github.com/leodotng/backpackerpoints
+            </a></p>
           </p>
 
           <p>
