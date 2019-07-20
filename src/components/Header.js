@@ -1,5 +1,6 @@
 import React from 'react'
 import './Profile.css'
+import Profile from '../images/profile.jpg';
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
@@ -9,7 +10,7 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h2>Josh Leong</h2>
-                <img src="https://media.licdn.com/dms/image/C4E03AQEZv4WlNp-iWA/profile-displayphoto-shrink_200_200/0?e=1551916800&v=beta&t=5Up4YZZeA3R8_chkWmc-uUxFiVRhnExSBXVexFK2K4o"/>
+                <img className="profilePhoto" src={Profile}/>
                 <h3>Software Developer</h3>
             </div>
         </div>

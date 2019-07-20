@@ -2,10 +2,6 @@ import React from 'react'
 import Link from 'gatsby-link'
 import './Profile.css'
 
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
-
 var divStyle = {
   flexDirection: 'row',
   height: '200px',
@@ -66,7 +62,8 @@ class Main extends React.Component {
           <p>
             Backpackerpoints is a new travel rewards points platform for
             backpackers to book hostels and tours abroad. Tech used: React,
-            Google Maps
+            Google Maps API, Semantic UI.
+            <br />
             <a href="http://www.backpackerpoints.com">
               http://www.backpackerpoints.com
             </a>
@@ -94,12 +91,7 @@ class Main extends React.Component {
             <br />
             <a href="http://www.langlang.io">http://www.langlang.io</a>
           </p>
-          <p>
-            For additional projects check{' '}
-            <a href="http://josh.leo.ng/projects">
-              http://josh.leo.ng/projects
-            </a>
-          </p>
+          
 
           {close}
         </article>
@@ -116,10 +108,9 @@ class Main extends React.Component {
             
           </span>
           <p>
-            I am a recent graduate of Galvanize's Full Stack Web Development
-            Immersive Program in Denver, CO. I love JavaScript, especially
-            front-end frameworks React.js and Vuejs! I also enjoy working with
-            APIs, UI/UX, modern typography! I aspire to be a programming Polygot
+            I am a graduate of Galvanize's Full Stack Web Development
+            Immersive Program in Denver, CO. I love JavaScript, TypeScript and everything
+            front-end! I also enjoy working with APIs, UI/UX, modern typography! I aspire to be a programming Polygot
             in JavaScript, Python, Ruby and Java. I’m currently actively seeking
             new developer opportunities! I can be reached by email josh@leo.ng!
           </p>
