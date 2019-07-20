@@ -10,7 +10,7 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h2>Josh Leong</h2>
-                <img className="profilePhoto" src={Profile}/>
+                <img src={Profile}/>
                 <h3>Software Developer</h3>
             </div>
         </div>
