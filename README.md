@@ -1,2 +1,2 @@
 # Josh Leong
-Full Stack Engineer
+Full Stack Software Developer based in Denver, CO.
