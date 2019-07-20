@@ -1,6 +1,6 @@
 import React from 'react'
 import './Profile.css'
-import Profile from '../images/profile.jpg';
+import ProfPhoto from '../images/profile.jpg';
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
@@ -10,7 +10,7 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h2>Josh Leong</h2>
-                <img src={Profile}/>
+                <img src={ProfPhoto}/>
                 <h3>Software Developer</h3>
             </div>
         </div>
